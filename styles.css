@@ -69,6 +69,22 @@ nav {
 
 /* Login Modal Styles */
 
+.login-button {
+    background-color: #1e1e1e;
+    color: #f49c70;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-button:hover {
+    color: #c9595b;
+    cursor: pointer;
+}
+
 /* The Modal (background) */
 .modal {
     display: none;
@@ -94,10 +110,10 @@ nav {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #1e1e1e;
     margin: 5px auto;
     /* 15% from the top and centered */
-    border: 1px solid #888;
+    border: 1px solid #c9595b;
     width: 80%;
     /* Could be more or less, depending on screen size */
 }
@@ -108,7 +124,8 @@ nav {
     position: absolute;
     right: 25px;
     top: 0;
-    color: #000;
+    background-color: #1e1e1e;
+    color: #f49c70;
     font-size: 35px;
     font-weight: bold;
 }
@@ -116,7 +133,7 @@ nav {
 /* Close button on hover */
 .close:hover,
 .close:focus {
-    color: red;
+    color: #1e1e1e
     cursor: pointer;
 }
 
