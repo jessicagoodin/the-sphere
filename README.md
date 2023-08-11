@@ -1,5 +1,5 @@
 # the-sphere
-Web app for event planning and booking. Creating in 4 weeks for hackathon.
+Web app for event planning and booking.
 
 Value provided: Event planning can be time-consuming, confusing, and can leave a lot of room for errors or missed details. The Sphere app is specifically designed for 
 those folks who are most likely planning personal events: women in their 20s and 30s. These women need to plan an event but aren't professional coordinators. 
