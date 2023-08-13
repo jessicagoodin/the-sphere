@@ -12,6 +12,8 @@ Expansion opportunities include:
    - Other visual aid options such as bar graphs;
    - Print feature to customize a PDF based on the inputted information;
    - App provides alerts when certain selected locations for purchases have discount codes or sales;
-   - Tips and tricks for budgeting, saving, and financial planning specifically tailored to personal events.
+   - Tips and tricks for budgeting, saving, and financial planning specifically tailored to personal events;
+   - Currency conversion;
+   - Built-in calculator.
     
 To begin with, the app will be front-end only (beginning with HTML, CSS, and Javascript).
