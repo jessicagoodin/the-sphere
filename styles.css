@@ -3,7 +3,8 @@
 #1e1e1e Eerie Black,
 #502c2c Caput Mortuum,
 #c9595b Indian Red,
-#f49c70 Atomic Tangerine*/
+#f49c70 Atomic Tangerine
+#f2cab6 Peach (like white)*/
 
 /* Body Styles */
 body {
@@ -133,7 +134,7 @@ nav {
 /* Close button on hover */
 .close:hover,
 .close:focus {
-    color: #1e1e1e
+    color: #1e1e1e;
     cursor: pointer;
 }
 
@@ -170,14 +171,14 @@ nav {
     align-items: center;
     height: 100vh;
     background-color: #2b2c2b;
-    background-image: url("C:/Users/jessa/OneDrive/Desktop/Code Projects/Sphere/Images/WeddingTables.jpg");
+    background-image: url(C:Users/jessa/OneDrive/Desktop/Code/Projects/Sphere/Images/DarkSunset.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .hero-content {
     text-align: center;
-    color: white;
+    color: #f2cab6;
 }
 
 .hero h1 {
@@ -209,62 +210,13 @@ nav {
     color: #f49c70;
 }
 
-/* Styling for Location Drop Down */
-.dropbtn {
-    background-color: #c9595b;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
+/* About Section Styles */
 
-.dropbtn:hover,
-.dropbtn:focus {
-    background-color: #f49c70;
-}
-
-#myInput {
-    box-sizing: border-box;
-    background-image: url('searchicon.png');
-    background-position: 14px 12px;
-    background-repeat: no-repeat;
-    font-size: 16px;
-    padding: 14px 20px 12px 45px;
-    border: none;
-    border-bottom: 1px solid #ddd;
-}
-
-#myInput:focus {
-    outline: 3px solid #ddd;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f6f6f6;
-    min-width: 230px;
-    overflow: auto;
-    border: 1px solid #ddd;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {
-    background-color: #ddd;
-}
-
-.show {
-    display: block;
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+    color: #f2cab6;
 }
